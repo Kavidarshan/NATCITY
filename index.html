@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAT City Hotel & Restaurant | Luxury Hotels in Sri Lanka</title>
+    <!-- Favicon for all browsers -->
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+<!-- Apple Touch Icon (for iOS devices) -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+<!-- For newer browsers -->
+<link rel="manifest" href="site.webmanifest">
+
+<!-- For Microsoft browsers -->
+<meta name="msapplication-TileColor" content="#1e3a8a">
+<meta name="theme-color" content="#1e3a8a">
+    <meta name="description" content="Experience luxury at NAT City Hotel in Sri Lanka. Premium accommodations in Nuwara Eliya and Ella with fine dining and exceptional hospitality.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-hotel"></i>
+                <span>NAT City Hotel</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Our Branches <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="nuwara-eliya.html">Nuwara Eliya</a></li>
+                            <li><a href="ella.html">Ella</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#restaurant">Restaurant</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#booking" class="btn btn-primary btn-small">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/94702222222?text=Hello%20NAT%20City%20Hotel!%20I%20would%20like%20to%20inquire%20about%20" class="whatsapp-float" target="_blank" id="whatsappBtn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>NAT City Hotel & Restaurant</h1>
+            <p>Experience luxury and comfort at our premium locations in Sri Lanka. Discover our branches in Nuwara Eliya and Ella.</p>
+            <div class="hero-btns">
+                <a href="#branches" class="btn btn-primary">Our Branches</a>
+                <a href="#booking" class="btn btn-secondary">Book Your Stay</a>
+            </div>
+        </div>
+        <a href="#branches" class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Branches Section -->
+    <section class="branches" id="branches">
+        <div class="container">
+            <h2>Our Branches</h2>
+            <p class="text-center mb-4">Discover our two beautiful locations in Sri Lanka's most scenic destinations</p>
+            
+            <div class="branch-cards">
+                <!-- Nuwara Eliya Branch -->
+                <div class="branch-card">
+                    <div class="branch-img">
+                        <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80" alt="Nuwara Eliya">
+                        <div class="branch-overlay">
+                            <h3>Nuwara Eliya</h3>
+                            <p>The Little England of Sri Lanka</p>
+                        </div>
+                    </div>
+                    <div class="branch-content">
+                        <h3>NAT City Hotel Nuwara Eliya</h3>
+                        <p>Experience colonial charm with modern luxury in the heart of Sri Lanka's tea country. Surrounded by lush tea plantations and cool mountain air.</p>
+                        <div class="branch-features">
+                            <span><i class="fas fa-mountain"></i> Mountain Views</span>
+                            <span><i class="fas fa-temperature-low"></i> Cool Climate</span>
+                            <span><i class="fas fa-leaf"></i> Tea Plantations</span>
+                        </div>
+                        <a href="nuwara-eliya.html" class="btn btn-primary">View Branch Details</a>
+                    </div>
+                </div>
+                
+                <!-- Ella Branch -->
+                <div class="branch-card">
+                    <div class="branch-img">
+                        <img src="https://www.myboutiquehotel.com/photos/119063/nine-skies-lk-001-35185-728x400.jpg">
+                        <div class="branch-overlay">
+                            <h3>Ella</h3>
+                            <p>Mountain Paradise</p>
+                        </div>
+                    </div>
+                    <div class="branch-content">
+                        <h3>NAT City Hotel Ella</h3>
+                        <p>Nestled in the hills of Ella, our hotel offers breathtaking views of Ella Gap and the surrounding mountains. Perfect for nature lovers and adventurers.</p>
+                        <div class="branch-features">
+                            <span><i class="fas fa-hiking"></i> Hiking Trails</span>
+                            <span><i class="fas fa-water"></i> Waterfalls</span>
+                            <span><i class="fas fa-binoculars"></i> Scenic Views</span>
+                        </div>
+                        <a href="ella.html" class="btn btn-primary">View Branch Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Section -->
+    <section class="restaurant" id="restaurant">
+        <div class="container">
+            <h2>Our Restaurant</h2>
+            <p class="text-center mb-4">Indulge in a culinary journey that celebrates Sri Lankan flavors complemented by international favorites</p>
+            
+            <div class="restaurant-content">
+                <div class="restaurant-img">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Restaurant Interior">
+                </div>
+                
+                <div>
+                    <h3>Culinary Excellence at Both Locations</h3>
+                    <p>Our chefs at both branches craft each dish using the freshest local ingredients, from aromatic rice and curry to freshly caught seafood. Enjoy your meal while overlooking beautiful landscapes.</p>
+                    
+                    <div class="restaurant-features">
+                        <div class="feature">
+                            <i class="fas fa-utensils"></i>
+                            <h4>Local & International</h4>
+                            <p>Diverse menu</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-wine-glass-alt"></i>
+                            <h4>Fine Drinks</h4>
+                            <p>Curated selection</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <h4>Open Daily</h4>
+                            <p>7AM - 10PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="branch-restaurant-links">
+                        <a href="nuwara-eliya.html#restaurant" class="btn btn-secondary">Nuwara Eliya Restaurant</a>
+                        <a href="ella.html#restaurant" class="btn btn-secondary">Ella Restaurant</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Partners Section -->
+    <section class="booking-partners" id="booking">
+        <div class="container">
+            <h2>Book Your Stay</h2>
+            <p class="text-center mb-2">Reserve your room through our trusted partners or contact us directly</p>
+            
+            <div class="partner-logos">
+                <a href="https://www.expedia.com/Hotel-Search?&destination=Nuwara+Eliya+Sri+Lanka&latLong=6.969994%2C80.773285&regionId=178279&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL&semdtl=a1412865948.b138054045423.r1.g1kwd-12670071.i1.d1486112355730.e1c.j19060201.k1.f1.n1.l1g.h1e.m1&gad_source=1" 
+                   target="_blank" class="partner-logo" id="expediaLink">
+                    <img src="images/expedia-logo.png" 
+     alt="Expedia" style="width: 160px; height: auto;">
+                </a>
+                
+                <a href="https://www.booking.com/searchresults.en-us.html?ss=Nuwara+Eliya%2C+Central+Province%2C+Sri+Lanka&ssne=Nuwara+Eliya&ssne_untouched=Nuwara+Eliya&label=gen173nr-1DCAEoggI46AdIM1gEaEaIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4AtOLja8GwAIB0gIkNGM1NGNjM2LWI3MWEtNDgzYS1hOTM3LWU0N2I4NThkMDIyM9gCBOACAQ&sid=5e5d8ca8ef31c4a121e955dd2e09a5fd&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-2210282&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=7eaf3468a2ad00a1&ac_meta=GhA3ZWFmMzQ2OGEyYWQwMGExIAIoATICZW46BE51d2FyYQ%3D%3D&checkin=2024-03-01&checkout=2024-03-02&group_adults=2&no_rooms=1&group_children=0" 
+                   target="_blank" class="partner-logo" id="bookingLink">
+                    <img src="images/booking-logo.png" 
+     alt="Booking.com" style="width: 180px; height: auto;">
+                </a>
+            </div>
+            
+            <div class="branch-booking-links text-center mt-4">
+                <p>Or book directly at our branches:</p>
+                <div class="booking-branch-btns">
+                    <a href="nuwara-eliya.html#contact" class="btn btn-secondary">Book at Nuwara Eliya</a>
+                    <a href="ella.html#contact" class="btn btn-secondary">Book at Ella</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="text-center mb-4">Get in touch with us for reservations, inquiries, or special requests</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-branches">
+                        <div class="contact-branch">
+                            <h3><i class="fas fa-map-marker-alt"></i> Nuwara Eliya Branch</h3>
+                            <p><i class="fas fa-location-dot"></i> 123 Grand Hotel Road, Nuwara Eliya, Sri Lanka</p>
+                            <p><i class="fas fa-phone"></i> +94 52 222 3456</p>
+                            <p><i class="fas fa-envelope"></i> nuwaraeliya@natcityhotel.com</p>
+                            <p><i class="fab fa-whatsapp"></i> +94 77 123 4567</p>
+                        </div>
+                        
+                        <div class="contact-branch">
+                            <h3><i class="fas fa-map-marker-alt"></i> Ella Branch</h3>
+                            <p><i class="fas fa-location-dot"></i> 456 Mountain View Road, Ella, Sri Lanka</p>
+                            <p><i class="fas fa-phone"></i> +94 57 222 7890</p>
+                            <p><i class="fas fa-envelope"></i> ella@natcityhotel.com</p>
+                            <p><i class="fab fa-whatsapp"></i> +94 77 987 6543</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-icons">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/your-company-name" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+</div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <label for="branchSelect">Select Branch</label>
+                            <select id="branchSelect" name="branch" required>
+                                <option value="">Choose a branch</option>
+                                <option value="nuwara-eliya">Nuwara Eliya</option>
+                                <option value="ella">Ella</option>
+                                <option value="both">Both / General Inquiry</option>
+                            </select>
+                        </div>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="responseMessage" style="display: none; margin-top: 15px; padding: 10px; border-radius: 5px;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NAT City Hotel</h4>
+                    <p>Experience luxury and comfort in Sri Lanka's most beautiful locations. Premium accommodations, fine dining, and exceptional hospitality.</p>
+                    <div class="social-icons">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/your-company-name" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+</div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Our Branches</h4>
+                    <div class="footer-links">
+                        <a href="nuwara-eliya.html">Nuwara Eliya Hotel</a>
+                        <a href="ella.html">Ella Hotel</a>
+                        <a href="nuwara-eliya.html#rooms">Nuwara Eliya Rooms</a>
+                        <a href="ella.html#rooms">Ella Rooms</a>
+                        <a href="nuwara-eliya.html#restaurant">Nuwara Eliya Restaurant</a>
+                        <a href="ella.html#restaurant">Ella Restaurant</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="#branches">Our Branches</a>
+                        <a href="#restaurant">Restaurant</a>
+                        <a href="#booking">Book Now</a>
+                        <a href="#contact">Contact Us</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Our Partners</h4>
+                    <div class="footer-links">
+                        <a href="https://www.expedia.com" target="_blank">Expedia.com</a>
+                        <a href="https://www.booking.com" target="_blank">Booking.com</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> NAT City Hotel & Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAT City Hotel Nuwara Eliya | Luxury Hotel in Sri Lanka's Hill Country</title>
+    <!-- Favicon for all browsers -->
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+<!-- Apple Touch Icon (for iOS devices) -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+<!-- For newer browsers -->
+<link rel="manifest" href="site.webmanifest">
+
+<!-- For Microsoft browsers -->
+<meta name="msapplication-TileColor" content="#1e3a8a">
+<meta name="theme-color" content="#1e3a8a">
+    <meta name="description" content="Experience colonial luxury at NAT City Hotel Nuwara Eliya. Premium accommodations with mountain views, fine dining, and exceptional hospitality.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-hotel"></i>
+                <span>NAT City Hotel</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Our Branches <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="nuwara-eliya.html" class="active">Nuwara Eliya</a></li>
+                            <li><a href="ella.html">Ella</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#restaurant">Restaurant</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#booking" class="btn btn-primary btn-small">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/94771234567?text=Hello%20NAT%20City%20Hotel%20Nuwara%20Eliya!%20I%20would%20like%20to%20inquire%20about%20" class="whatsapp-float" target="_blank" id="whatsappBtn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Branch Hero Section -->
+    <section class="branch-hero" id="home">
+        <div class="branch-hero-content">
+            <div class="branch-tag">Nuwara Eliya Branch</div>
+            <h1>NAT City Hotel Nuwara Eliya</h1>
+            <p class="branch-location"><i class="fas fa-map-marker-alt"></i> Nuwara Eliya, Sri Lanka</p>
+            <div class="divider"></div>
+            <p class="branch-description">Experience colonial charm with modern luxury in the heart of Sri Lanka's tea country. Surrounded by lush tea plantations and cool mountain air.</p>
+            <div class="hero-btns">
+                <a href="#rooms" class="btn btn-primary">Explore Rooms</a>
+                <a href="#restaurant" class="btn btn-secondary">Our Restaurant</a>
+            </div>
+        </div>
+        <a href="#rooms" class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms" id="rooms">
+        <div class="container">
+            <h2>Rooms in Nuwara Eliya</h2>
+            <p class="text-center mb-4">Each room is designed to provide comfort with breathtaking views of the tea plantations and mountains.</p>
+            
+            <div class="room-cards">
+                <!-- Tea Plantation Suite -->
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Tea Plantation Suite" class="room-img">
+                    <div class="room-content">
+                        <h3>Tea Plantation Suite</h3>
+                        <div class="room-price">$140 / night</div>
+                        <p>Luxurious suite with panoramic views of tea plantations and colonial-style furnishings.</p>
+                        
+                        <div class="room-features">
+                            <div class="room-feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>50 m²</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-user-friends"></i>
+                                <span>2-3 Guests</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-bed"></i>
+                                <span>King Bed</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-leaf"></i>
+                                <span>Tea Garden View</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#booking" class="btn btn-primary" style="width: 100%;">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Colonial Deluxe Room -->
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Colonial Deluxe Room" class="room-img">
+                    <div class="room-content">
+                        <h3>Colonial Deluxe Room</h3>
+                        <div class="room-price">$95 / night</div>
+                        <p>Elegant room with colonial-era decor, fireplace, and garden views.</p>
+                        
+                        <div class="room-features">
+                            <div class="room-feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>35 m²</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-user-friends"></i>
+                                <span>2 Guests</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-bed"></i>
+                                <span>King Bed</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-fire"></i>
+                                <span>Fireplace</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#booking" class="btn btn-primary" style="width: 100%;">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Mountain View Room -->
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mountain View Room" class="room-img">
+                    <div class="room-content">
+                        <h3>Mountain View Room</h3>
+                        <div class="room-price">$75 / night</div>
+                        <p>Cozy room with stunning mountain views and modern amenities.</p>
+                        
+                        <div class="room-features">
+                            <div class="room-feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>28 m²</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-user-friends"></i>
+                                <span>2 Guests</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-bed"></i>
+                                <span>Double Bed</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-mountain"></i>
+                                <span>Mountain View</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#booking" class="btn btn-primary" style="width: 100%;">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Section -->
+    <section class="restaurant" id="restaurant">
+        <div class="container">
+            <h2>Restaurant in Nuwara Eliya</h2>
+            <p class="text-center mb-4">Indulge in a culinary journey with colonial-inspired cuisine and local flavors</p>
+            
+            <div class="restaurant-content">
+                <div class="restaurant-img">
+                    <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Nuwara Eliya Restaurant">
+                    <div class="restaurant-tag">
+                        <p>Colonial Dining</p>
+                        <p>With Tea Plantation Views</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3>Culinary Excellence in Nuwara Eliya</h3>
+                    <p>Our chef crafts each dish using the freshest local ingredients from Nuwara Eliya's famous farms and tea plantations. Enjoy colonial-inspired cuisine with modern twists.</p>
+                    
+                    <div class="restaurant-features">
+                        <div class="feature">
+                            <i class="fas fa-utensils"></i>
+                            <h4>Colonial Cuisine</h4>
+                            <p>British-inspired dishes</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-coffee"></i>
+                            <h4>High Tea</h4>
+                            <p>Traditional afternoon tea</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <h4>Open Daily</h4>
+                            <p>7AM - 10PM</p>
+                        </div>
+                    </div>
+                    
+                    <p class="mb-3">Signature dishes include Ceylon Tea Smoked Salmon, Nuwara Eliya Vegetable Bake, and traditional English Pudding with local berries.</p>
+                    
+                    <a href="#contact" class="btn btn-primary">Reserve a Table</a>
+                </div>
+            </div>
+            
+            <div class="signature-dishes">
+                <div class="dish">
+                    <h4>Ceylon Tea Smoked Salmon</h4>
+                    <p>Local salmon with tea smoke</p>
+                    <div class="dish-price">$16</div>
+                </div>
+                
+                <div class="dish">
+                    <h4>Nuwara Eliya Vegetable Bake</h4>
+                    <p>Fresh local vegetables</p>
+                    <div class="dish-price">$12</div>
+                </div>
+                
+                <div class="dish">
+                    <h4>Traditional English Pudding</h4>
+                    <p>With local berries</p>
+                    <div class="dish-price">$8</div>
+                </div>
+                
+                <div class="dish">
+                    <h4>High Tea Set</h4>
+                    <p>For two persons</p>
+                    <div class="dish-price">$22</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Partners Section -->
+    <section class="booking-partners" id="booking">
+        <div class="container">
+            <h2>Book Your Stay in Nuwara Eliya</h2>
+            <p class="text-center mb-2">Reserve your room through our trusted partners</p>
+            
+            <div class="partner-logos">
+                <a href="https://www.expedia.com/Hotel-Search?&destination=Nuwara+Eliya+Sri+Lanka&latLong=6.969994%2C80.773285&regionId=178279&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL&semdtl=a1412865948.b138054045423.r1.g1kwd-12670071.i1.d1486112355730.e1c.j19060201.k1.f1.n1.l1g.h1e.m1&gad_source=1" 
+                   target="_blank" class="partner-logo" id="expediaLink">
+                    <img src="images/expedia-logo.png" 
+     alt="Expedia" style="width: 160px; height: auto;">
+                </a>
+                
+                <a href="https://www.booking.com/searchresults.en-us.html?ss=Nuwara+Eliya%2C+Central+Province%2C+Sri+Lanka&ssne=Nuwara+Eliya&ssne_untouched=Nuwara+Eliya&label=gen173nr-1DCAEoggI46AdIM1gEaEaIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4AtOLja8GwAIB0gIkNGM1NGNjM2LWI3MWEtNDgzYS1hOTM3LWU0N2I4NThkMDIyM9gCBOACAQ&sid=5e5d8ca8ef31c4a121e955dd2e09a5fd&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-2210282&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=7eaf3468a2ad00a1&ac_meta=GhA3ZWFmMzQ2OGEyYWQwMGExIAIoATICZW46BE51d2FyYQ%3D%3D&checkin=2024-03-01&checkout=2024-03-02&group_adults=2&no_rooms=1&group_children=0" 
+                   target="_blank" class="partner-logo" id="bookingLink">
+                    <img src="images/booking-logo.png" 
+     alt="Booking.com" style="width: 180px; height: auto;">
+                </a>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p>Or contact us directly for special rates and packages</p>
+                <a href="#contact" class="btn btn-primary mt-2">Contact Us Directly</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Nuwara Eliya Branch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-branch-details">
+                        <h3><i class="fas fa-map-marker-alt"></i> Nuwara Eliya Branch</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Grand Hotel Road, Nuwara Eliya, Sri Lanka</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone Number</h4>
+                                <p>+94 52 222 3456</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p>nuwaraeliya@natcityhotel.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+94 77 123 4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Opening Hours</h4>
+                                <p>24/7 for hotel guests<br>Restaurant: 7AM - 10PM daily<br>Reception: 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-media">
+    <h3>Follow Us</h3>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/your-company-name" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+</div>
+                    
+                    <div class="other-branch-link">
+                        <h3>Visit Our Other Branch</h3>
+                        <a href="ella.html" class="btn btn-secondary">Go to Ella Branch</a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="branchMessageForm">
+                        <input type="text" id="branchName" name="name" placeholder="Your Name" required>
+                        <input type="email" id="branchEmail" name="email" placeholder="Your Email" required>
+                        <input type="text" id="branchSubject" name="subject" placeholder="Subject" required>
+                        <textarea id="branchMessage" name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="branchResponseMessage" style="display: none; margin-top: 15px; padding: 10px; border-radius: 5px;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NAT City Hotel Nuwara Eliya</h4>
+                    <p>Experience colonial luxury in Sri Lanka's hill country. Premium accommodations with tea plantation views and exceptional hospitality.</p>
+                    <div class="social-icons">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/your-company-name" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+</div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="nuwara-eliya.html">Nuwara Eliya</a>
+                        <a href="ella.html">Ella Branch</a>
+                        <a href="#rooms">Our Rooms</a>
+                        <a href="#restaurant">Restaurant</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Our Partners</h4>
+                    <div class="footer-links">
+                        <a href="https://www.expedia.com" target="_blank">Expedia.com</a>
+                        <a href="https://www.booking.com" target="_blank">Booking.com</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> NAT City Hotel & Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAT City Hotel Ella | Luxury Hotel with Mountain Views in Sri Lanka</title>
+    <!-- Favicon for all browsers -->
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+<!-- Apple Touch Icon (for iOS devices) -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+<!-- For newer browsers -->
+<link rel="manifest" href="site.webmanifest">
+
+<!-- For Microsoft browsers -->
+<meta name="msapplication-TileColor" content="#1e3a8a">
+<meta name="theme-color" content="#1e3a8a">
+    <meta name="description" content="Experience nature's luxury at NAT City Hotel Ella. Premium accommodations with mountain views, fine dining, and exceptional hospitality.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-hotel"></i>
+                <span>NAT City Hotel</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Our Branches <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="nuwara-eliya.html">Nuwara Eliya</a></li>
+                            <li><a href="ella.html" class="active">Ella</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#restaurant">Restaurant</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#booking" class="btn btn-primary btn-small">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/94779876543?text=Hello%20NAT%20City%20Hotel%20Ella!%20I%20would%20like%20to%20inquire%20about%20" class="whatsapp-float" target="_blank" id="whatsappBtn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Branch Hero Section -->
+    <section class="branch-hero ella-hero" id="home">
+        <div class="branch-hero-content">
+            <div class="branch-tag">Ella Branch</div>
+            <h1>NAT City Hotel Ella</h1>
+            <p class="branch-location"><i class="fas fa-map-marker-alt"></i> Ella, Sri Lanka</p>
+            <div class="divider"></div>
+            <p class="branch-description">Nestled in the hills of Ella, our hotel offers breathtaking views of Ella Gap and the surrounding mountains. Perfect for nature lovers and adventurers.</p>
+            <div class="hero-btns">
+                <a href="#rooms" class="btn btn-primary">Explore Rooms</a>
+                <a href="#restaurant" class="btn btn-secondary">Our Restaurant</a>
+            </div>
+        </div>
+        <a href="#rooms" class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms" id="rooms">
+        <div class="container">
+            <h2>Rooms in Ella</h2>
+            <p class="text-center mb-4">Wake up to stunning mountain views from your room, designed for comfort and connection with nature.</p>
+            
+            <div class="room-cards">
+                <!-- Ella Gap Suite -->
+                <div class="room-card">
+                    <img src="https://q-xx.bstatic.com/xdata/images/hotel/1184x892/156047313.webp?k=778743bc55914a2f18fc8fbf9a62e23e6b3573a137973636729884fa0f057ce4&o=">
+                    <div class="room-content">
+                        <h3>Ella Gap Suite</h3>
+                        <div class="room-price">$130 / night</div>
+                        <p>Luxurious suite with panoramic views of Ella Gap and private balcony.</p>
+                        
+                        <div class="room-features">
+                            <div class="room-feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>48 m²</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-user-friends"></i>
+                                <span>2-3 Guests</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-bed"></i>
+                                <span>King Bed</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-umbrella-beach"></i>
+                                <span>Private Balcony</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#booking" class="btn btn-primary" style="width: 100%;">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Mountain View Deluxe -->
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mountain View Deluxe" class="room-img">
+                    <div class="room-content">
+                        <h3>Mountain View Deluxe</h3>
+                        <div class="room-price">$90 / night</div>
+                        <p>Spacious room with floor-to-ceiling windows showcasing mountain vistas.</p>
+                        
+                        <div class="room-features">
+                            <div class="room-feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>38 m²</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-user-friends"></i>
+                                <span>2 Guests</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-bed"></i>
+                                <span>King Bed</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-mountain"></i>
+                                <span>Mountain View</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#booking" class="btn btn-primary" style="width: 100%;">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Nature Lover's Room -->
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Nature Lover's Room" class="room-img">
+                    <div class="room-content">
+                        <h3>Nature Lover's Room</h3>
+                        <div class="room-price">$70 / night</div>
+                        <p>Cozy room with garden views, perfect for travelers seeking tranquility.</p>
+                        
+                        <div class="room-features">
+                            <div class="room-feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>30 m²</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-user-friends"></i>
+                                <span>2 Guests</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-bed"></i>
+                                <span>Double Bed</span>
+                            </div>
+                            <div class="room-feature">
+                                <i class="fas fa-tree"></i>
+                                <span>Garden View</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#booking" class="btn btn-primary" style="width: 100%;">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Section -->
+    <section class="restaurant" id="restaurant">
+        <div class="container">
+            <h2>Restaurant in Ella</h2>
+            <p class="text-center mb-4">Experience farm-to-table dining with panoramic mountain views</p>
+            
+            <div class="restaurant-content">
+                <div class="restaurant-img">
+                    <img src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1450&q=80" alt="Ella Restaurant">
+                    <div class="restaurant-tag">
+                        <p>Mountain Dining</p>
+                        <p>With Ella Gap Views</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3>Culinary Excellence in Ella</h3>
+                    <p>Our chef creates dishes using fresh ingredients from local farms in Ella. Enjoy traditional Sri Lankan cuisine with modern presentations while overlooking the famous Ella Gap.</p>
+                    
+                    <div class="restaurant-features">
+                        <div class="feature">
+                            <i class="fas fa-utensils"></i>
+                            <h4>Local Cuisine</h4>
+                            <p>Traditional Sri Lankan</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-seedling"></i>
+                            <h4>Farm Fresh</h4>
+                            <p>Local ingredients</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <h4>Open Daily</h4>
+                            <p>7AM - 10PM</p>
+                        </div>
+                    </div>
+                    
+                    <p class="mb-3">Signature dishes include Ella Gap Grilled Fish, Mountain Vegetable Curry, and homemade Wood Apple Juice.</p>
+                    
+                    <a href="#contact" class="btn btn-primary">Reserve a Table</a>
+                </div>
+            </div>
+            
+            <div class="signature-dishes">
+                <div class="dish">
+                    <h4>Ella Gap Grilled Fish</h4>
+                    <p>Fresh river fish</p>
+                    <div class="dish-price">$15</div>
+                </div>
+                
+                <div class="dish">
+                    <h4>Mountain Vegetable Curry</h4>
+                    <p>7 local vegetables</p>
+                    <div class="dish-price">$10</div>
+                </div>
+                
+                <div class="dish">
+                    <h4>Hoppers with Egg</h4>
+                    <p>Traditional breakfast</p>
+                    <div class="dish-price">$6</div>
+                </div>
+                
+                <div class="dish">
+                    <h4>Wood Apple Juice</h4>
+                    <p>Homemade specialty</p>
+                    <div class="dish-price">$4</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Partners Section -->
+    <section class="booking-partners" id="booking">
+        <div class="container">
+            <h2>Book Your Stay in Ella</h2>
+            <p class="text-center mb-2">Reserve your room through our trusted partners</p>
+            
+            <div class="partner-logos">
+                <a href="https://www.expedia.com/Hotel-Search?&destination=Ella+Sri+Lanka&latLong=6.8696%2C81.0463&regionId=6057565&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL&semdtl=a1412865948.b138054045423.r1.g1kwd-12670071.i1.d1486112355730.e1c.j19060201.k1.f1.n1.l1g.h1e.m1&gad_source=1" 
+                   target="_blank" class="partner-logo" id="expediaLink">
+                    <img src="images/expedia-logo.png" 
+     alt="Expedia" style="width: 160px; height: auto;">
+                </a>
+                
+                <a href="https://www.booking.com/searchresults.en-us.html?ss=Ella%2C+Uva+Province%2C+Sri+Lanka&ssne=Ella&ssne_untouched=Ella&label=gen173nr-1DCAEoggI46AdIM1gEaEaIAQGYAQm4ARfIAQzYAQHoAQH4AQyIAgGoAgO4AtOLja8GwAIB0gIkNGM1NGNjM2LWI3MWEtNDgzYS1hOTM3LWU0N2I4NThkMDIyM9gCBOACAQ&sid=5e5d8ca8ef31c4a121e955dd2e09a5fd&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-2227801&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=7eaf3f0ba027024e&ac_meta=GhA3ZWFmM2YwYmEwMjcwMjRlIAIoATICZW46BEVsbGE%3D&checkin=2024-03-01&checkout=2024-03-02&group_adults=2&no_rooms=1&group_children=0" 
+                   target="_blank" class="partner-logo" id="bookingLink">
+                    <img src="images/booking-logo.png" 
+     alt="Booking.com" style="width: 180px; height: auto;">
+                </a>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p>Or contact us directly for special rates and packages</p>
+                <a href="#contact" class="btn btn-primary mt-2">Contact Us Directly</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Ella Branch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-branch-details">
+                        <h3><i class="fas fa-map-marker-alt"></i> Ella Branch</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>456 Mountain View Road, Ella, Sri Lanka</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone Number</h4>
+                                <p>+94 57 222 7890</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p>ella@natcityhotel.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+94 77 987 6543</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Opening Hours</h4>
+                                <p>24/7 for hotel guests<br>Restaurant: 7AM - 10PM daily<br>Reception: 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-media">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/your-company-name" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="other-branch-link">
+                        <h3>Visit Our Other Branch</h3>
+                        <a href="nuwara-eliya.html" class="btn btn-secondary">Go to Nuwara Eliya Branch</a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="branchMessageForm">
+                        <input type="text" id="branchName" name="name" placeholder="Your Name" required>
+                        <input type="email" id="branchEmail" name="email" placeholder="Your Email" required>
+                        <input type="text" id="branchSubject" name="subject" placeholder="Subject" required>
+                        <textarea id="branchMessage" name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="branchResponseMessage" style="display: none; margin-top: 15px; padding: 10px; border-radius: 5px;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NAT City Hotel Ella</h4>
+                    <p>Experience nature's luxury in Ella. Premium accommodations with mountain views and exceptional hospitality.</p>
+                    <div class="social-icons">
+                        <div class="social-icons">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/your-company-name" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+</div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="nuwara-eliya.html">Nuwara Eliya Branch</a>
+                        <a href="ella.html">Ella</a>
+                        <a href="#rooms">Our Rooms</a>
+                        <a href="#restaurant">Restaurant</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Our Partners</h4>
+                    <div class="footer-links">
+                        <a href="https://www.expedia.com" target="_blank">Expedia.com</a>
+                        <a href="https://www.booking.com" target="_blank">Booking.com</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> NAT City Hotel & Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
